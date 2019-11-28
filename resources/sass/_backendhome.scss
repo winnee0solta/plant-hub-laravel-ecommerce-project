@@ -1,0 +1,78 @@
+.custom-table-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    font-size: 13px;
+
+    table {
+        thead {
+            th {
+                border-top: none;
+                border: none;
+
+            }
+
+            td {
+                border: none;
+            }
+        }
+    }
+
+    .view_btn {
+        font-size: 12px;
+        background: black;
+        color: white;
+        text-transform: capitalize;
+        min-width: 60px;
+    }
+
+    .remove_btn {
+        display: inline-block;
+        font-size: 12px;
+        background: $red;
+        color: white;
+        text-transform: capitalize;
+        min-width: 60px;
+    }
+}
+
+.custom-form-section {
+    margin-top: 30px;
+
+    .custom-form-container {
+        font-size: 15px;
+        margin: 20px;
+        padding: 40px 20px;
+        background-color: #ffffff;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+        .form-title {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 40px;
+            font-size: 25px;
+        }
+
+        form {
+            .form-group {
+                margin-bottom: 20px;
+            }
+
+            input {
+                height: 40px;
+            }
+
+            .submit-btn {
+                margin-top: 20px;
+                background: $green;
+                color: white;
+                text-transform: uppercase;
+                display: block;
+                margin: 0 auto;
+                width: 100%;
+                padding: 10px;
+            }
+        }
+    }
+}
